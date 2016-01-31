@@ -92,6 +92,11 @@ function ($stateProvider, $locationProvider, $urlRouterProvider, helper) {
         title: 'Submenu',
         templateUrl: helper.basepath('submenu.html')
     })
+    .state('app.sample', {
+        url: '/sample',
+        title: 'Sample',
+        templateUrl: helper.basepath('sample.html')
+    })
     // 
     // CUSTOM RESOLVES
     //   Add your own resolves properties
